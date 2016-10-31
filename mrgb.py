@@ -17,9 +17,6 @@ GPIO.setwarnings(False)
 for led in red, green, blue:
     GPIO.setup(led, GPIO.OUT)
 
-#GPIO.setup(green,GPIO.OUT)
-#GPIO.setup(red,GPIO.OUT)
-#GPIO.setup(blue,GPIO.OUT)
 
 def led_out(color, sleep_time):
     GPIO.output(color,GPIO.LOW)

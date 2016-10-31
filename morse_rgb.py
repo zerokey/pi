@@ -105,9 +105,6 @@ try:
     data_in = raw_input("What would you like to transmit? ")
     words = string_to_morse(data_in)
 
-    for i in range(1, 10):
-        lights()
-
 except KeyboardInterrupt:
     RUNNING = False
     print "Quitting\n"
